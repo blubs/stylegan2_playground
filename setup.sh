@@ -1,11 +1,9 @@
 git clone https://github.com/rolux/stylegan2encoder
 
-# Retrieve notebook and
-# FIXME - Do we need this for anything?
-# git clone https://github.com/Puzer/stylegan-encoder
-# cp ./stylegan-encoder/Play_with_latent_directions.ipynb ./stylegan2encoder/
-# rm -rf ./stylegan-encoder
-
+# Retrieve pre-computed latent representations for two images
+git clone https://github.com/Puzer/stylegan-encoder.git
+cp -r ./stylegan-encoder/ffhq_dataset/latent_representations ./
+rm -rf ./stylegan-encoder
 
 # Retrieve latent directions from the following repo:
 git clone https://github.com/a312863063/generators-with-stylegan2.git
