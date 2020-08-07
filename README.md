@@ -22,6 +22,7 @@ These latent directions are pulled from the following repo:
 https://github.com/a312863063/generators-with-stylegan2
 ```
 For example, This allows one to move a latent vector in the smile direction to increase an image's smile.
+
 ![Latent Direction Image](./docs/stylegan2_latent_dir.png)
 
 
